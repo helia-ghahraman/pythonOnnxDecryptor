@@ -51,5 +51,4 @@ if __name__ == "__main__":
     session = decryptor.load_model_with_inference(decrypted_data)
 
     # onnx.checker.check_model(model)
-    # Print a human readable representation of the graph to test if the decryption worked
     # print(onnx.helper.printable_graph(model.graph))
